@@ -30,7 +30,6 @@ int main () {
         if(array_for_remainder[remainder] == 1){
             maximum = max(maximum, count);
             count = 0;
-            
         }
     }
     cout <<maximum <<endl;
